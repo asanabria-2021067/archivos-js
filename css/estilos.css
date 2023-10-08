@@ -1,0 +1,42 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #f6ea0d;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-container{
+    text-align: center;
+}
+
+.logo-container img{
+    max-width: 20%;
+    height: auto;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+p{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+button{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    background-color: #f6ea0d;
+    color: #333;
+    cursor: pointer;
+}

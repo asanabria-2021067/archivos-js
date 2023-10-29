@@ -1,42 +1,85 @@
-body,html{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-    color: #f6ea0d;
-    font-family: 'Roboto', sans-serif;
-}
-
-.logo-container{
+.logo-container {
     text-align: center;
 }
 
-.logo-container img{
+.logo-container img {
     max-width: 20%;
     height: auto;
 }
 
-header{
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .dropdown-item {
+    color: #212529;
+}
+
+.navbar-light .navbar-nav .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.navbar-light .navbar-nav .dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+}
+
+p {
+    color: #6c757d;
+}
+
+.logo-container {
     text-align: center;
 }
 
-h1{
+.boton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+    padding: 5px;
+}
+
+p {
     font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
-p{
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-button{
+button {
     margin-top: 1rem;
     font-size: 1.5rem;
     padding: 0.5rem 2rem;
     background-color: #f6ea0d;
     color: #333;
     cursor: pointer;
+}
+
+.h1Title{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.respuestaPrimos{
+    width: 80px !important;
+    height: 100px !important;
+    overflow: scroll !important;
 }
